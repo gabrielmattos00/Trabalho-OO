@@ -6,6 +6,7 @@ using namespace std;
 
 int main()
 {
+    cout<<"Bem vindo ao código";
     cout<<"Informe o número de moradores: ";
     int num_moradores;
     cin>>num_moradores;
