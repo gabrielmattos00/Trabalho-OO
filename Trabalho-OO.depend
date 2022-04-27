@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1651018791 source:c:\users\derlucio nazareth\trabalho-oo\quarto.cpp
+	<iostream>
+	<string>
+	"Class.h"
+
+1651018826 c:\users\derlucio nazareth\trabalho-oo\class.h
+	<string>
+
+1651018845 source:c:\users\derlucio nazareth\trabalho-oo\main.cpp
+	"Class.h"
+	<iostream>
+	<math.h>
+

@@ -1,3 +1,4 @@
+#include "Class.h"
 #include <iostream>
 #include <math.h>
 
@@ -13,10 +14,12 @@ int main()
 
     for(int i=0; i<num_moradores; i++)
     {
-        pensao[i]->preencherDados();
+        pensao[i].preencherDados();
     }
-
-
+    for(int i=0; i<num_moradores; i++)
+    {
+        pensao[i].dadosMorador();
+    }
 
     return 0;
 }
