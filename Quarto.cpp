@@ -16,22 +16,35 @@ Quarto::~Quarto()
 
 void Quarto::preencherDados()
 {
-    cout<<"Digite o n�mero do quarto: ";
+    cout<<"SALVE"<<endl;
+    cout<<"Digite o numero do quarto: ";
     cin>>num_quarto;
-    cout<<endl<<"Digite o nome: ";
+    cout<<"Digite o nome: ";
+    cin.ignore();//lia o quebra linha como nome.
     getline(cin, nome);
-    cout<<endl<<"Digite a idade: ";
+    cout<<"Digite a idade: ";
     cin>>idade;
-    cout<<endl<<"Digite a profiss�o: ";
+    cout<<"Digite a profiss�o: ";
+    cin.ignore();
     getline(cin, profissao);
+    if(profissao=="estudante" || profissao=="Estudante")
+    {
+        cout<<"Informe o seu curso: ";
+        //cin.ignore();
+        getline(cin, curso);
+    }
     cout<<"Digite o valor do aluguel: ";
     cin>>valor_aluguel;
 }
 void Quarto::dadosMorador()
 {
-    cout<<"nome: "<<nome<<endl;
+    cout<<endl<<"nome: "<<nome<<endl;
     cout<<"idade: "<<idade<<endl;
-    cout<<"profiss�o: "<<profissao<<endl;
-    cout<<"numero do quarto: "<<num_quarto<<endl;
+    cout<<"profissao: "<<profissao;
+    if(profissao=="estudante" || profissao=="Estudante")
+    {
+        cout<<" de "<<curso;
+    }
+    cout<<endl<<"numero do quarto: "<<num_quarto<<endl;
     cout<<"valor do aluguel: "<<valor_aluguel<<endl;
 }

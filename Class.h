@@ -11,6 +11,7 @@ class Quarto
         string nome;
         int idade;
         string profissao;
+        string curso;
         int num_quarto;
         float valor_aluguel;
 
