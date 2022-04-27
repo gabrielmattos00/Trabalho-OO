@@ -16,22 +16,22 @@ Quarto::~Quarto()
 
 void Quarto::preencherDados()
 {
-    //cout<<"Digite o nome: "<<endl;
-    //getline(cin,nome);
-    cout<<"Digite a idade: "<<endl;
-    cin>>idade;
-    //cout<<"Digite a profissão: "<<endl;
-    //getline(cin,profissao);
-    cout<<"Digite o número do quarto: "<<endl;
+    cout<<"Digite o nï¿½mero do quarto: ";
     cin>>num_quarto;
-    cout<<"Digite o valor do aluguel: "<<endl;
+    cout<<endl<<"Digite o nome: ";
+    getline(cin, nome);
+    cout<<endl<<"Digite a idade: ";
+    cin>>idade;
+    cout<<endl<<"Digite a profissï¿½o: ";
+    getline(cin, profissao);
+    cout<<"Digite o valor do aluguel: ";
     cin>>valor_aluguel;
 }
 void Quarto::dadosMorador()
 {
-    //cout<<"nome: "<<nome<<endl;
+    cout<<"nome: "<<nome<<endl;
     cout<<"idade: "<<idade<<endl;
-    //cout<<"profissão: "<<profissao<<endl;
+    cout<<"profissï¿½o: "<<profissao<<endl;
     cout<<"numero do quarto: "<<num_quarto<<endl;
     cout<<"valor do aluguel: "<<valor_aluguel<<endl;
 }

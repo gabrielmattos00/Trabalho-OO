@@ -1,12 +1,12 @@
 #include "Class.h"
 #include <iostream>
 #include <math.h>
+#include <string>
 
 using namespace std;
 
 int main()
 {
-<<<<<<< HEAD
     cout<<"Bem vindo ao c�digo";
     cout<<"Informe o n�mero de moradores: ";
 
