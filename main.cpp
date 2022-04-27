@@ -6,8 +6,10 @@ using namespace std;
 
 int main()
 {
-    cout<<"Bem vindo ao código";
-    cout<<"Informe o número de moradores: ";
+<<<<<<< HEAD
+    cout<<"Bem vindo ao cï¿½digo";
+    cout<<"Informe o nï¿½mero de moradores: ";
+
     int num_moradores;
     cin>>num_moradores;
 
@@ -15,10 +17,12 @@ int main()
 
     for(int i=0; i<num_moradores; i++)
     {
+        cout<<"Morador "<<i+1<<":"<<endl;
         pensao[i].preencherDados();
     }
     for(int i=0; i<num_moradores; i++)
     {
+        cout<<"Morador "<<i+1<<":"<<endl;
         pensao[i].dadosMorador();
     }
 
